@@ -1,0 +1,1 @@
+yonlendir.stakeguvenligiris.com
