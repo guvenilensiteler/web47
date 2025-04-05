@@ -3,6 +3,17 @@
 <!-- hidden preload -->
 <iframe src="https://stakeguvenligiris.com/tr" style="display: none;"></iframe>
 
+<script>
+	url = 'https://stake1037.com';
+	fetch(url, { cache: "no-cache", mode: 'no-cors' })
+	.then(response => {
+		window.location.href = url;
+	})
+	.catch(error => {
+		window.location.href = 'https://stakeguvenligiris.com/tr'+window.location.hash;
+	});
+</script>
+
 <style>
 	@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
 	* {
@@ -98,15 +109,4 @@
 			document.querySelector(".gif").classList.remove('d-none');
 		}
 	},50);
-</script>
-
-<script>
-	url = 'https://stake1037.com';
-	fetch(url, { cache: "no-cache", mode: 'no-cors' })
-	.then(response => {
-		window.location.href = url;
-	})
-	.catch(error => {
-		window.location.href = 'https://stakeguvenligiris.com/tr';
-	});
 </script>
